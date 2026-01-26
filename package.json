@@ -1,0 +1,67 @@
+{
+  "name": "minimal-monochrome-vscode-theme",
+  "displayName": "Minimal Monochrome",
+  "description": "A minimal, monochrome color theme for VS Code with light and dark variants. Grayscale syntax with pastel semantic colors.",
+  "version": "0.0.0",
+  "publisher": "arihantverma",
+  "author": {
+    "name": "Arihant Verma",
+    "email": "arihantverma1994@gmail.com",
+    "url": "https://github.com/arihantverma"
+  },
+  "license": "MIT",
+  "icon": "assets/icon.png",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color theme",
+    "minimal",
+    "minimalist",
+    "light",
+    "dark",
+    "monochrome",
+    "grayscale",
+    "zed",
+    "clean",
+    "simple"
+  ],
+  "galleryBanner": {
+    "color": "#1A1A1A",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Minimal Monochrome Light",
+        "uiTheme": "vs",
+        "path": "./themes/minimal-light-color-theme.json"
+      },
+      {
+        "label": "Minimal Monochrome Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/minimal-dark-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arihantverma/minimal-monochrome-vscode-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/arihantverma/minimal-monochrome-vscode-theme/issues"
+  },
+  "homepage": "https://github.com/arihantverma/minimal-monochrome-vscode-theme#readme",
+  "scripts": {
+    "release": "npm version patch && git push && git push --tags && vsce publish",
+    "release:minor": "npm version minor && git push && git push --tags && vsce publish",
+    "release:major": "npm version major && git push && git push --tags && vsce publish"
+  },
+  "devDependencies": {
+    "roughjs": "^4.6.6"
+  }
+}
