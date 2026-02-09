@@ -452,6 +452,31 @@
       "settings": {
         "foreground": "#EEEEEE"
       }
+    },
+    {
+      "scope": ["markup.inserted", "punctuation.definition.inserted.diff"],
+      "settings": {
+        "foreground": "#8BCFAC"
+      }
+    },
+    {
+      "scope": ["markup.deleted", "punctuation.definition.deleted.diff"],
+      "settings": {
+        "foreground": "#F5A3A7"
+      }
+    },
+    {
+      "scope": ["meta.diff.header"],
+      "settings": {
+        "foreground": "#EEEEEE",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["meta.diff.range"],
+      "settings": {
+        "foreground": "#89B4D4"
+      }
     }
   ],
   "semanticHighlighting": true,
