@@ -2,7 +2,7 @@
   "name": "Minimal Monochrome Dark",
   "type": "dark",
   "colors": {
-    "editor.background": "#1A1A1A",
+    "editor.background": "#121212",
     "editor.foreground": "#EEEEEE",
     "editor.lineHighlightBackground": "#3A3A3A",
     "editor.selectionBackground": "#606060",
@@ -20,7 +20,7 @@
     "editorWhitespace.foreground": "#3A3A3A",
     "editorBracketMatch.background": "#2A2A2A",
     "editorBracketMatch.border": "#3A3A3A",
-    "editorGutter.background": "#1A1A1A",
+    "editorGutter.background": "#121212",
     "editorGutter.addedBackground": "#8BCFAC",
     "editorGutter.modifiedBackground": "#89B4D4",
     "editorGutter.deletedBackground": "#F5A3A7",
