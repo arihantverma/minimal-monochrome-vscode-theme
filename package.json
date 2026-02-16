@@ -45,6 +45,16 @@
         "label": "Minimal Monochrome Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/minimal-dark-color-theme.json"
+      },
+      {
+        "label": "Minimal Monochrome Slate Light",
+        "uiTheme": "vs",
+        "path": "./themes/slate-light-color-theme.json"
+      },
+      {
+        "label": "Minimal Monochrome Slate Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/slate-dark-color-theme.json"
       }
     ]
   },
