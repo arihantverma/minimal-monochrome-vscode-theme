@@ -267,12 +267,20 @@
       "scope": [
         "entity.name.type",
         "entity.name.class",
-        "entity.name.namespace",
+        "entity.name.namespace"
+      ],
+      "settings": {
+        "foreground": "#0F6E80"
+      }
+    },
+    {
+      "scope": [
         "support.type",
         "support.class"
       ],
       "settings": {
-        "foreground": "#0F6E80"
+        "foreground": "#0F6E80",
+        "fontStyle": "italic"
       }
     },
     {
@@ -315,8 +323,15 @@
     },
     {
       "scope": [
+        "keyword.operator.assignment"
+      ],
+      "settings": {
+        "foreground": "#2E527A"
+      }
+    },
+    {
+      "scope": [
         "keyword.operator",
-        "keyword.operator.assignment",
         "keyword.operator.arithmetic",
         "keyword.operator.comparison"
       ],
@@ -362,11 +377,19 @@
     },
     {
       "scope": [
-        "variable.language",
-        "variable.parameter"
+        "variable.language"
       ],
       "settings": {
         "foreground": "#000000DF"
+      }
+    },
+    {
+      "scope": [
+        "variable.parameter"
+      ],
+      "settings": {
+        "foreground": "#000000DF",
+        "fontStyle": "italic"
       }
     },
     {
@@ -501,7 +524,8 @@
         "entity.other.inherited-class"
       ],
       "settings": {
-        "foreground": "#0F6E80"
+        "foreground": "#0F6E80",
+        "fontStyle": "italic underline"
       }
     },
     {

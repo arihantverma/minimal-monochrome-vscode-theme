@@ -55,6 +55,26 @@
         "label": "Minimal Monochrome Slate Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/slate-dark-color-theme.json"
+      },
+      {
+        "label": "Minimal Monochrome Pastel Light",
+        "uiTheme": "vs",
+        "path": "./themes/pastel-light-color-theme.json"
+      },
+      {
+        "label": "Minimal Monochrome Pastel Dawn",
+        "uiTheme": "vs",
+        "path": "./themes/pastel-dawn-color-theme.json"
+      },
+      {
+        "label": "Minimal Monochrome Ink Light",
+        "uiTheme": "vs",
+        "path": "./themes/ink-light-color-theme.json"
+      },
+      {
+        "label": "Minimal Monochrome Ink Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ink-dark-color-theme.json"
       }
     ]
   },
