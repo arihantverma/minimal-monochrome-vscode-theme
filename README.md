@@ -1,6 +1,6 @@
 # Minimal Monochrome
 
-Four quiet VS Code themes — two fully grayscale, two with a muted slate palette. All share the same minimal UI chrome with soft pastel accents for errors, warnings, git, and terminal.
+Eight quiet VS Code themes spanning pure grayscale, restrained slate tones, softer pastel variants, and higher-contrast ink variants. All share the same minimal UI chrome with gentle semantic accents for errors, warnings, git, and terminal.
 
 ## Monochrome Dark
 
@@ -25,6 +25,30 @@ Heavily inspired by [egoist's Slate theme](https://github.com/egoist/vscode-them
 The slate palette adapted for a light background with higher saturation to maintain readability.
 
 ![Slate Light](./assets/light-slate.png)
+
+## Pastel Light
+
+A softer light variant with more visible syntax color while keeping the overall palette calm and low-contrast.
+
+![Pastel Light](./assets/pastel-light.png)
+
+## Pastel Dawn
+
+A warm, dawn-tinted light variant that leans into subtle peach and rose tones without losing the minimal feel.
+
+![Pastel Dawn](./assets/pastel-dawn.png)
+
+## Ink Light
+
+A crisper light theme with stronger syntax separation for when you want more definition than grayscale or slate provides.
+
+![Ink Light](./assets/ink-light.png)
+
+## Ink Dark
+
+The higher-contrast dark counterpart, with richer syntax differentiation while preserving the same quiet UI treatment.
+
+![Ink Dark](./assets/ink-dark.png)
 
 ## Companion icons
 
